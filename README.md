@@ -1,4 +1,4 @@
-### Chatbot Front End
+# Azure Chatbot Frontend (WIP)
 
 This client communicates with the Azure Bot Service through the Direct Line (v3) API.
 
