@@ -1,0 +1,33 @@
+@import '../../sass/settings.scss';
+
+.Layout {
+   display: flex;
+}
+
+.Background1 {
+   background-color: $black;
+   height: rem(200);
+   width: 110%;
+   position: fixed;
+   top: 30vh;
+   z-index: -99;
+   transform: rotate(10deg) translate(-50px);
+}
+.Background2 {
+   background-color: $black;
+   height: rem(200);
+   width: 110%;
+   position: fixed;
+   top: 30vh;
+   z-index: -99;
+   transform: rotate(-14deg) translate(-60px);
+}
+
+.Mask {
+   position: fixed;
+   bottom: 17vh;
+   height: rem(200);
+   width: 100%;
+   z-index: -100;
+   background: white;
+}

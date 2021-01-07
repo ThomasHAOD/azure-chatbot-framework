@@ -1,0 +1,56 @@
+import { ChatBotState } from "../../../types/types";
+
+const mockConversation: ChatBotState = [
+  {
+    type: "message",
+    id: "mesfaasdgeId|01",
+    timestamp: "2020-10-20T18:31:26.761997Z",
+    channelId: "directline",
+    attachments: [],
+    conversation: { id: "81fixB77LSnGAdNh6P5NaG-p" },
+    entities: [],
+    from: { id: "Chatbot", name: "YSChatbotTest" },
+    inputHint: "ignoringInput",
+    speak: "Hi there, welcome to the Chatbot!|How can I help?",
+    text: "Hi there, welcome to the Chatbot!|How can I help?",
+  },
+  {
+    type: "message",
+    id: "messaaasdfgeId|02",
+    timestamp: "2020-10-20T18:31:26.761997Z",
+    channelId: "directline",
+    attachments: [],
+    conversation: { id: "81fixB77LSnGAdNd6P5NfG-p" },
+    entities: [],
+    from: { id: "Chatbot", name: "ChatbotTest" },
+    inputHint: "ignoringInput",
+    speak: "Hi there, welcome to the Chatbot!|How can I help?",
+    text: "",
+  },
+  {
+    type: "message",
+    id: "messasdfageId",
+    timestamp: "2020-10-20T18:32:26.761997Z",
+    channelId: "directline",
+    attachments: [],
+    conversation: { id: "81fixB77LSnGAdNf6P5NfG-p" },
+    entities: [],
+    from: { id: "User" },
+    text: "Hi there, what time do you open?",
+  },
+  {
+    type: "message",
+    id: "messaaasdfsdfgeId|03",
+    timestamp: "2020-10-20T18:33:26.761997Z",
+    channelId: "directline",
+    attachments: [],
+    conversation: { id: "81fixB77LSnGfdNh6P5NfG-p" },
+    entities: [],
+    from: { id: "Chatbot", name: "YSChatbotTest" },
+    inputHint: "ignoringInput",
+    speak: "Our opening hours are 9-5, Monday to Friday.",
+    text: "Our opening hours are 9-5, Monday to Friday.",
+  },
+];
+
+export default mockConversation;

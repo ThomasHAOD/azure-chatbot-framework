@@ -1,0 +1,37 @@
+@keyframes rotate {
+
+  0% {
+    transform: rotateZ(0deg);
+  }
+
+  10% {
+    transform: rotateZ(-5deg);
+  }
+
+  80% {
+    transform: rotateZ(95deg);
+  }
+
+  100% {
+    transform: rotateZ(90deg);
+  }
+}
+
+@keyframes rotate-reverse {
+
+  0% {
+    transform: rotateZ(90deg);
+  }
+
+  10% {
+    transform: rotateZ(95deg);
+  }
+
+  80% {
+    transform: rotateZ(-5deg);
+  }
+
+  100% {
+    transform: rotateZ(0deg);
+  }
+}

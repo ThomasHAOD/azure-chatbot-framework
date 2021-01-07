@@ -1,0 +1,33 @@
+@import '../../../sass/settings.scss';
+
+.NavBar {
+  display: none;
+
+  @include media(small) {
+    display: flex;
+    position: fixed;
+    top: 0;
+    height: 7vh;
+    width: 100%;
+    justify-content: flex-end;
+    box-shadow: 0 1px 10px $light-grey;
+  }
+}
+
+.Image {
+  position: absolute;
+  top: 0;
+  left: rem(30);
+  height: rem(100);
+}
+
+.Links {
+  display: flex;
+  align-self: flex-end;
+  list-style: none;
+  font-weight: 600;
+
+  & li {
+    padding: rem(10);
+  }
+}

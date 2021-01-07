@@ -1,0 +1,59 @@
+@import '../../../sass/settings.scss';
+
+.Footer {
+  display: none;
+
+  @include media(small) {
+    display: flex;
+    position: fixed;
+    height: 17vh;
+    bottom: 0;
+    background-color: $primary;
+    width: 100%;
+    color: $white;
+    z-index: -300;
+
+    & h3 {
+      font-size: rem(40);
+      font-weight: 900;
+      margin: 0;
+      padding: rem(20) rem(40);
+    }
+
+    & p {
+      font-weight: 800;
+      font-size: rem(20);
+      margin: 0;
+      padding: 0 rem(40);
+    }
+
+    &::after {
+      height: 0;
+      padding-bottom: 100%;
+      background: $primary-light;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      content: '';
+      display: block;
+      position: absolute;
+      right: -40%;
+      top: -50%;
+      width: 100%;
+      z-index: -200;
+    }
+
+    & ul {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      margin-top: rem(50);
+      flex-shrink: 2;
+      min-width: 30vw;
+      justify-content: space-between;
+    }
+
+    & img {
+      height: rem(50);
+    }
+  }
+}
